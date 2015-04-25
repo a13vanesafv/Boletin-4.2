@@ -16,10 +16,34 @@ namespace Ejercicio_4_4_11
             this.peso11 = peso;
         }
 
-        public int peso11;
-        public int altura11;
-        public string colorOjos11;
-        public string colorPelo11;
+        private int peso11;
+
+        public int Peso11
+        {
+            get { return peso11; }
+            set { peso11 = value; }
+        }
+        private int altura11;
+
+        public int Altura11
+        {
+            get { return altura11; }
+            set { altura11 = value; }
+        }
+        private string colorOjos11;
+
+        public string ColorOjos11
+        {
+            get { return colorOjos11; }
+            set { colorOjos11 = value; }
+        }
+        private string colorPelo11;
+
+        public string ColorPelo11
+        {
+            get { return colorPelo11; }
+            set { colorPelo11 = value; }
+        }
 
        
         public void PonerLentillas11(string colorLentillas)
