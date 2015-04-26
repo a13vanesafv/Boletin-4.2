@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_4_4_11
 {
+<<<<<<< master
       class Persona11
+=======
+      class Persona11 : Ejercicio_4_4_11.IPersona11
+>>>>>>> local
     {
         public Persona11(int altura, int peso, string colorOjos, string colorPelo)
         {
